@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    background: black;
+    padding: 15px;
+    color: red;
+    letter-spacing: 2px;
+    cursor: progress;
+    border-radius: 20px;
+}
+
+h1:hover {
+    text-transform: uppercase;
+    background: red;
+    padding: 15px;
+    color: black;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 1.5rem;
+    background-color: gray;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    border: 2px solid black;
+    display: block;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10x 10px rgba(0, 0, 0, 0.7);
+    background-color: gray;
+}
+
+li {
+    text-transform: uppercase;
+    list-style: circle;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
